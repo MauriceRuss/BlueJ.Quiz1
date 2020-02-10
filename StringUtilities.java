@@ -24,9 +24,12 @@ public class StringUtilities {
      * @return identical string with characters in opposite order
      */
     public String reverse(String valueToBeReversed) {
-        String reverse = "";
-        reverse = reverse(valueToBeReversed);
-     return reverse;
+        //String answer = "";
+      /** char[] answer = valueToBeReversed.toCharArray();
+       for(int q = valueToBeReversed.le ngth - 1; q >= 0;){
+        }*/
+        
+     return null;
     }
 
     /**
@@ -47,9 +50,10 @@ public class StringUtilities {
      * @return `value` with char of value `charToRemove` removed
      */
     public String removeCharacter(String value, Character charToRemove) {
-       /** String answer = "";
-        answer = value.substring(*/
-        return null;
+        String answer = "";
+        String q = String.valueOf(charToRemove);
+        answer = value.replaceAll(q, "");
+        return answer;
        
     }
 
