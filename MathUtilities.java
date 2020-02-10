@@ -8,8 +8,13 @@ public class MathUtilities{
    * @param valueToAdd number
    * @return the sum of the two numbers
    */
+  Integer rightAn = 0;
   public Integer add(Integer baseValue, Integer valueToAdd){
-      return null;
+      int answer = baseValue + valueToAdd;
+       
+      
+      
+      return answer;
   }
 
   /**
@@ -19,7 +24,8 @@ public class MathUtilities{
    * @return the sum of the two numbers
    */
   public Double add(Double baseValue, Double valueToAdd){
-      return null;
+      double answer = baseValue + valueToAdd;
+      return answer;
   }
 
   /**
