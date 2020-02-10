@@ -24,7 +24,9 @@ public class StringUtilities {
      * @return identical string with characters in opposite order
      */
     public String reverse(String valueToBeReversed) {
-        return null;
+        String reverse = "";
+        reverse = reverse(valueToBeReversed);
+     return reverse;
     }
 
     /**
@@ -32,7 +34,11 @@ public class StringUtilities {
      * @return middle character of `word`
      */
     public Character getMiddleCharacter(String word) {
-        return null;
+        String midChar = "";
+        int r=word.length();
+        int q=r/2;
+        char answer[] =word.toCharArray();
+        return answer[q];
     }
 
     /**
@@ -41,6 +47,7 @@ public class StringUtilities {
      * @return `value` with char of value `charToRemove` removed
      */
     public String removeCharacter(String value, Character charToRemove) {
+        
         return null;
     }
 
