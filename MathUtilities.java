@@ -11,11 +11,11 @@ public class MathUtilities{
   Integer rightAn = 0;
   public Integer add(Integer baseValue, Integer valueToAdd){
       int answer = baseValue + valueToAdd;
-       
+       return answer;
+   }   
       
       
-      return answer;
-  }
+ 
 
   /**
    * Add two number together
@@ -46,12 +46,12 @@ public class MathUtilities{
   public static Boolean isOdd(Integer number){
       
       if(number % 2 == 0){
-  
-          return true;
+            return true;
         }else
             return false;
+   }     
       
-  }
+  
 
 
   /**

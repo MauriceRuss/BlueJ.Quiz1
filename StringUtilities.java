@@ -5,9 +5,9 @@ public class StringUtilities {
      * @return `input`
      */
     public String returnInput(String input) {
-        
         return input;
-    }
+         }
+   
 
     /**
      * @param baseValue value to be added to
@@ -24,12 +24,11 @@ public class StringUtilities {
      * @return identical string with characters in opposite order
      */
     public String reverse(String valueToBeReversed) {
-        //String answer = "";
-      /** char[] answer = valueToBeReversed.toCharArray();
-       for(int q = valueToBeReversed.le ngth - 1; q >= 0;){
-        }*/
-        
-     return null;
+        String answer = "";
+        for(int q = valueToBeReversed.length()-1;q >= 0; q--){
+            answer = answer + valueToBeReversed.charAt(q);
+        }
+     return answer;
     }
 
     /**
@@ -54,8 +53,8 @@ public class StringUtilities {
         String q = String.valueOf(charToRemove);
         answer = value.replaceAll(q, "");
         return answer;
-       
-    }
+     }
+   
 
     /**
      * @param sentence String delimited by spaces representative of a sentence
