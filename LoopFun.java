@@ -47,7 +47,12 @@ public class LoopFun
        * @param word
        * @return the encrypted string by shifting each character by three character
        */
+      /*for each loop to iterate?????
+      make array of alpha*/
+      /*else/if through alphabit???*/
       public String encrypt(String word) {
-          return null;
+          String answer = "";
+          char[] alphabet = "abcdefghifklmnopqrstuvwxyz".toCharArray();
+          return answer;
       }
 }
