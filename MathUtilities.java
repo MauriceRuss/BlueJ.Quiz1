@@ -60,7 +60,8 @@ public class MathUtilities{
    * @return the result of the number multiply by itself
    */
   public Integer square(Integer number) {
-      return null;
+      int answer = number * number;
+      return answer;
   }
 
 }
