@@ -34,7 +34,8 @@ public class MathUtilities{
    * @return the half of the number in double
    */
   public Double half(Integer number) {
-      return null;
+      double answer = number * 0.5;
+      return answer;
   }
 
   /**
