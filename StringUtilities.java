@@ -7,7 +7,7 @@ public class StringUtilities {
     public String returnInput(String input) {
         return input;
          }
-   
+   Integer sum = 0;
 
     /**
      * @param baseValue value to be added to

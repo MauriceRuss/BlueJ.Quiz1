@@ -52,7 +52,15 @@ public class LoopFun
       /*else/if through alphabit???*/
       public String encrypt(String word) {
           String answer = "";
-          char[] alphabet = "abcdefghifklmnopqrstuvwxyz".toCharArray();
+          for( int q = 0; q <word.length(); q++){
+              char let = word.charAt(q);
+              if(let == 'x' || let == 'y' || let == 'z'){
+                let -=26;
+                }
+                let += 3;
+                answer += let;
+            }
+         
           return answer;
       }
 }
